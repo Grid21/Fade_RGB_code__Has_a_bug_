@@ -34,7 +34,6 @@ int BlueVal4 = 78;
 //Set initial mode (Colour Value Mode) to Colour Value 1
 int mode = (1);
 
-void setup();
 {
 //----------------------- Assign outputs
    pinMode(Red, OUTPUT);
@@ -45,7 +44,7 @@ void setup();
    analogWrite(Green, GreenVal);
    analogWrite(Blue, BlueVal);
 }
-void loop();                            // Begin Main Program Loop
+                           // Begin Main Program Loop
 
 {
   while(mode == 1){
